@@ -1,0 +1,44 @@
+[
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/c++",
+            "-c",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/task_2/include",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-o",
+            "CMakeFiles/ModernCPPForCV.dir/task_2/src/subtract.cpp.o",
+            "task_2/src/subtract.cpp"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1",
+        "file": "task_2/src/subtract.cpp"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/c++",
+            "-c",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/task_2/include",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-o",
+            "CMakeFiles/ModernCPPForCV.dir/task_2/src/main.cpp.o",
+            "task_2/src/main.cpp"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1",
+        "file": "task_2/src/main.cpp"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/c++",
+            "-c",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/task_2/include",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-o",
+            "CMakeFiles/ModernCPPForCV.dir/task_2/src/sum.cpp.o",
+            "task_2/src/sum.cpp"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1",
+        "file": "task_2/src/sum.cpp"
+    }
+]
