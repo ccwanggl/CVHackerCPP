@@ -1,12 +1,17 @@
 cmake_minimum_required(VERSION 3.10)
 
 project(ModernCPPForCV
-VERSION 1.0
-LANGUAGES CXX)
+  VERSION 1.0
+  LANGUAGES CXX)
+
+add_subdirectory(task_2/arithmetic)
+
+add_executable( ${PROJECT_NAME} task_2/src/main.cpp)
+
+target_include_directories(${PROJECT_NAME} PUBLIC task_2/arithmetic)
 
 
-include_directories(task_2/include)
+# 指明库的查找位置
+# target_link_directories(${PROJECT_NAME} PRIVATE arithmetic)
 
-add_executable( ${PROJECT_NAME} task_2/src/sum.cpp
-                                task_2/src/subtract.cpp
-                                task_2/src/main.cpp)
+target_link_libraries(${PROJECT_NAME} arithmetic)
