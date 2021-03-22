@@ -3,42 +3,342 @@
         "arguments": [
             "/Library/Developer/CommandLineTools/usr/bin/c++",
             "-c",
-            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/task_2/include",
             "-isysroot",
             "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
             "-o",
-            "CMakeFiles/ModernCPPForCV.dir/task_2/src/subtract.cpp.o",
-            "task_2/src/subtract.cpp"
+            "CMakeFiles/arithmetic.dir/ipb_arithmetic/subtract.cpp.o",
+            "../../../../homework_1/task_2/arithmetic/ipb_arithmetic/subtract.cpp"
         ],
-        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1",
-        "file": "task_2/src/subtract.cpp"
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/task_2/arithmetic",
+        "file": "../../../../homework_1/task_2/arithmetic/ipb_arithmetic/subtract.cpp"
     },
     {
         "arguments": [
             "/Library/Developer/CommandLineTools/usr/bin/c++",
             "-c",
-            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/task_2/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/task_2/arithmetic",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/../external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
             "-isysroot",
             "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
             "-o",
             "CMakeFiles/ModernCPPForCV.dir/task_2/src/main.cpp.o",
-            "task_2/src/main.cpp"
+            "../../homework_1/task_2/src/main.cpp"
         ],
-        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1",
-        "file": "task_2/src/main.cpp"
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build",
+        "file": "../../homework_1/task_2/src/main.cpp"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/context.c.o",
+            "../../../../external/glfw/src/context.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/context.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/cocoa_window.m.o",
+            "../../../../external/glfw/src/cocoa_window.m"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/cocoa_window.m"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/egl_context.c.o",
+            "../../../../external/glfw/src/egl_context.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/egl_context.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/cocoa_monitor.m.o",
+            "../../../../external/glfw/src/cocoa_monitor.m"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/cocoa_monitor.m"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/cocoa_joystick.m.o",
+            "../../../../external/glfw/src/cocoa_joystick.m"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/cocoa_joystick.m"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/init.c.o",
+            "../../../../external/glfw/src/init.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/init.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/monitor.c.o",
+            "../../../../external/glfw/src/monitor.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/monitor.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/posix_thread.c.o",
+            "../../../../external/glfw/src/posix_thread.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/posix_thread.c"
     },
     {
         "arguments": [
             "/Library/Developer/CommandLineTools/usr/bin/c++",
             "-c",
-            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1/task_2/include",
             "-isysroot",
             "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
             "-o",
-            "CMakeFiles/ModernCPPForCV.dir/task_2/src/sum.cpp.o",
-            "task_2/src/sum.cpp"
+            "CMakeFiles/arithmetic.dir/ipb_arithmetic/sum.cpp.o",
+            "../../../../homework_1/task_2/arithmetic/ipb_arithmetic/sum.cpp"
         ],
-        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/homework_1",
-        "file": "task_2/src/sum.cpp"
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/task_2/arithmetic",
+        "file": "../../../../homework_1/task_2/arithmetic/ipb_arithmetic/sum.cpp"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/input.c.o",
+            "../../../../external/glfw/src/input.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/input.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/nsgl_context.m.o",
+            "../../../../external/glfw/src/nsgl_context.m"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/nsgl_context.m"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/cocoa_time.c.o",
+            "../../../../external/glfw/src/cocoa_time.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/cocoa_time.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/osmesa_context.c.o",
+            "../../../../external/glfw/src/osmesa_context.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/osmesa_context.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/vulkan.c.o",
+            "../../../../external/glfw/src/vulkan.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/vulkan.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/window.c.o",
+            "../../../../external/glfw/src/window.c"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/window.c"
+    },
+    {
+        "arguments": [
+            "/Library/Developer/CommandLineTools/usr/bin/cc",
+            "-c",
+            "-D_GLFW_USE_CONFIG_H",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/include",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/external/glfw/src",
+            "-I/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+            "-isysroot",
+            "/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk",
+            "-fPIC",
+            "-Wall",
+            "-std=c99",
+            "-o",
+            "CMakeFiles/glfw.dir/cocoa_init.m.o",
+            "../../../../external/glfw/src/cocoa_init.m"
+        ],
+        "directory": "/Users/guoliang/workspace/cppdev/modernCPPForCV/out/build/glfw/src",
+        "file": "../../../../external/glfw/src/cocoa_init.m"
     }
 ]
