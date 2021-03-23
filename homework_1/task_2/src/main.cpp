@@ -3,20 +3,25 @@
 //
 // Copyright (c) 2019 Ignacio Vizzo, all rights reserved
 #include <iostream>
-
 #include "GLFW/glfw3.h"
-#include "ipb_arithmetic.hpp"
-
 #include <modernCPPForCV.h>
+
+#ifdef USE_ARITHMETIC
+  #include <ipb_arithmetic.hpp>
+#endif
+
 
 using std::cout;
 using std::endl;
 
 int main(int argc, char *argv[]) {
+
+#ifdef USE_ARITHMETIC
   const float x = 1.0;
   const float y = 2.0;
   cout << "The sum of " << x << "+" << y << " = " << MySum(x, y) << endl
        << "The sub of " << x << "-" << y << " = " << MySubtract(x, y) << endl;
+#endif
 
   std::cout << argv[0] << " Version " << MODERNCPPFORCV_VERSION_MAJOR << "."
             << MODERNCPPFORCV_VERSION_MINOR << "\n";
