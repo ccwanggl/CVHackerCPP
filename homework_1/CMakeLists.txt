@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.10)
 
 project(MODERNCPPFORCV
-  VERSION 1.0
-  LANGUAGES CXX)
+	VERSION 1.0
+	LANGUAGES CXX
+)
+	
 
 
 option(USE_ARITHMETIC "A simple library for arithmetic." ON)
@@ -49,7 +51,6 @@ endif()
 
 # 指明库的查找位置
 # target_link_directories(${PROJECT_NAME} PRIVATE arithmetic)
-
 
 target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
 target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/../external/glfw/include
